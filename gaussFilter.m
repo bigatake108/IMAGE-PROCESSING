@@ -1,6 +1,5 @@
 function [ fimg ] = my_gaussFilter( img, w , sigma )
-%MY_GAUSSFILTER Summary of this function goes here
-%   Detailed explanation goes here
+
 fimg = zeros(size(img));
 [row, column, rgb] = size(img); % get the sizes of the 3d matrix % copy the 3d matrix one time
 
